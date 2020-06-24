@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Radio Centro Suono",
+          "examplePhrases": [
+            "alexa, apri radio centro suono",
+            "alexa, lancia radio centro suono",
+            "alexa, avvia radio centro suono"
+          ],
+          "keywords": [
+            "radio",
+            "centro",
+            "suono"
+          ],
+          "name": "RADIO CENTRO SUONO",
+          "description": "Radio Centro Suono è stata fondata a Roma dalle famiglie Balducci e Albanesi nel 1983. Oggi trasmette 24 ore su 24 in FM in alcune zone del Lazio. Viene trasmessa musica italiana e straniera di diversi generi oltre a programmi di intrattenimento e giochi.",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "La skill si avvia pronunciando apri radio centro suono\n\nAutorizzazione protezione diritti d\u0027autore: https://1drv.ms/b/s!AjobEvOX17CLkRuRLBAsbhJ_OjDC?e\u003d3O48YT\n\n\nCarta Identità:  https://1drv.ms/b/s!AjmCXjkK4JptoFuRyt-_9qg9ZIrv?e\u003dLDeOK7\nDoc Societari:    https://1drv.ms/b/s!AjmCXjkK4JptoFwUzt3x2CBxfL9C?e\u003du6FGre\nRichiesta Adempimento: https://1drv.ms/b/s!AjobEvOX17CLkRJ6z8Sqz3yiAWRk?e\u003dYeCTGe\nDecreto Concessione: https://1drv.ms/b/s!AjobEvOX17CLkRMzu-4DCdLpXbBK?e\u003deOIKaB",
+      "category": "CHILDRENS_RADIO",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:417571643814:function:efd7ac95-8e61-4cff-a8cc-90c7a9a6e822:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {
+          "termsOfUseUrl": "https://www.centrosuono.com/",
+          "privacyPolicyUrl": "https://www.centrosuono.com/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
